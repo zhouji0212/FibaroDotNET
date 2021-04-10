@@ -13,14 +13,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace FibaroDebugPanel
+namespace FibaroTool.Modules.ModuleName.Views
 {
     /// <summary>
-    /// MainWindow.xaml 的交互逻辑
+    /// Interaction logic for ViewA.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class ViewA : UserControl
     {
-        public MainWindow()
+        public ViewA()
         {
             InitializeComponent();
         }

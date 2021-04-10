@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <AssemblyName>FibaroTool.Modules.ModuleName</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Prism.Wpf" Version="8.0.0.1909" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\FibaroTool.Core\FibaroTool.Core.csproj" />
+    <ProjectReference Include="..\..\Services\FibaroTool.Services.Interfaces\FibaroTool.Services.Interfaces.csproj" />
+  </ItemGroup>
+</Project>
