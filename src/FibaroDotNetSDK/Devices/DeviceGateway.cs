@@ -6,7 +6,7 @@ using FibaroDotNetSDK.Infrastructure;
 
 namespace FibaroDotNetSDK.Devices
 {
-    public class DeviceGateway : IDeviceGateway
+    public class DeviceGateway : IVirtualDeviceGateway
     {
         private readonly IFibaroClient _client;
 

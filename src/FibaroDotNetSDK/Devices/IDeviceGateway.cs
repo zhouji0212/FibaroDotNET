@@ -5,7 +5,7 @@ using System.Linq;
 
 namespace FibaroDotNetSDK.Devices
 {
-    public interface IDeviceGateway
+    public interface IVirtualDeviceGateway
     {
         Task<ICollection<Device>> GetDevices();
         Task<Device> GetDeviceById(int deviceId);

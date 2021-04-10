@@ -8,7 +8,7 @@ namespace FibaroDotNetSDK.Infrastructure
 {
     public static class GatewayExtensions
     {
-        public static async Task<Device> GetDevice(this IDeviceGateway gateway, Func<Device, bool> predicate)
+        public static async Task<Device> GetDevice(this IVirtualDeviceGateway gateway, Func<Device, bool> predicate)
         {
             var devices = await gateway.GetDevices();
                 
